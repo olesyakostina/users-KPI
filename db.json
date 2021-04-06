@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "name": "Чолпон",
+      "lastName": "Дамиирбекова",
+      "phone": "0555620084",
+      "group": "JS 10",
+      "week": "100",
+      "month": "100",
+      "id": 2
+    },
+    {
+      "name": "роь",
+      "lastName": "про",
+      "phone": "",
+      "group": "",
+      "week": "",
+      "month": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "lastName": "",
+      "phone": "ротьб",
+      "group": "ртоь",
+      "week": "",
+      "month": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "lastName": "",
+      "phone": "",
+      "group": "",
+      "week": "оьб",
+      "month": "ртоь",
+      "id": 5
+    },
+    {
+      "name": "тоьб",
+      "lastName": "",
+      "phone": "",
+      "group": "",
+      "week": "тоьб",
+      "month": "",
+      "id": 6
+    },
+    {
+      "name": "cdvfgb",
+      "lastName": "sdcfvgb",
+      "phone": "xcdvfbg",
+      "group": "xcdvfbg",
+      "week": "xcdvfb",
+      "month": "xcvb",
+      "id": 7
+    }
+  ]
+}

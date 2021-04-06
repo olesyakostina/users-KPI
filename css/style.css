@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bd99ad;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.container {
+    max-width: 968px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial;
+}
+.container:first-child {
+    text-align: center;
+}
+.auth-form {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #cabbc2;
+    text-align: right;
+    border-radius: 5px;
+}
+.field {
+    margin-bottom: 1rem;
+}
+.field:last-child {
+    margin-bottom: 0;
+}
+.field > input {
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+}
+.field:last-child > button {
+    padding: 10px;
+    color: rgb(199, 146, 186);
+    background-color: #885672;
+    border: 0;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 100%;
+}
+.field:last-child > button:hover {
+    background-color: #610a3f;
+}
+.field:last-child {
+    text-align: center;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-inp {
+    text-align: right;
+    width: 250px;
+    height: 22px;
+    border-radius: 5px;
+}
+
+.main-modal {
+    background-color: #bd99ad;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    text-align: left;
+    padding-top: 0;
+}
+ul {
+    list-style-type: none;
+}
+.card {
+    margin: 0 auto;
+}
+
+.window {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.modal-window {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-close {
+    align-self: flex-end;
+}
+.edit-task {
+    padding-top: 10px;
+}
+
+.paginate-btn {
+    transition: 0.3s ease-in;
+}
+.pag__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.previous-btn,
+.next-btn {
+    transition: 0.3s ease-in;
+    border-radius: 4px;
+    cursor: pointer;
+    color: rgb(17, 17, 17);
+    background-color: #856878;
+    width: 80px;
+    height: 29px;
+}
+.edit {
+    margin-bottom: 10px;
+}
+.card-title {
+    text-align: center;
+}
+.card-img-top {
+    transition: 1s;
+}
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+@media all and (max-width: 425px) {
+    .auth-form {
+        width: 60%;
+    }
+    .card-title {
+        width: 10rem;
+    }
+    .card-text {
+        width: 10rem;
+    }
+    .field {
+        text-align: left;
+    }
+}

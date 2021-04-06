@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="auth-form">
+                <div class="field">
+                    <span>Фамилия:</span>
+                    <input name="lastName" type="text" class="inp" id="inp__surname">
+                </div>
+                <div class="field">
+                    <span>Имя:</span>
+                    <input name="name" type="text" class="inp" id="inp__name">
+                </div>
+                <div class="field">
+                    <span>Номер телефона:</span>
+                    <input name="phone" type="text" class="inp" id="inp__phone">
+                </div>
+                <div class="field">
+                    <span>Группа:</span>
+                    <input name="group" type="text" class="inp" id="inp__group">
+                </div>
+                <div class="field">
+                    <span>Недельный KPI:</span>
+                    <input name="week" type="text" class="inp" id="inp__week">
+                </div>
+                <div class="field">
+                    <span>Месячный KPI:</span>
+                    <input name="month" type="text" class="inp" id="inp__month">
+                </div>
+                <div class="field">
+                    <button class="btn" id="save">Создать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search">
+        <input type="text" class="search-inp" placeholder="поиск">
+
+    </div>
+
+
+
+    <!-- окно для ответов -->
+
+    <div class="main-modal">
+        <div class="inner-modal">
+            <div>
+                <ul>
+
+
+                </ul>
+            </div>
+            <div class="pag__btn">
+                <button class="previous-btn">Prev</button>
+                <!-- <ul class="pagination"></ul> -->
+                <button class="next-btn">Next</button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- модальное окно -->
+
+    <div class="window">
+        <div class="modal-window">
+
+            <div class="edit-task">
+                <span><strong>Фамилия</strong></span>
+                <input type="text" class="edit-inp_lastName">
+                <div class="edit-task">
+                    <span><strong>Имя</strong></span>
+                    <input type="text" class="edit-inp_name">
+                </div>
+                <div class="edit-task">
+                    <span><strong>Номер телефона</strong></span>
+                    <input type="text" class="edit-inp_phone">
+                </div>
+                <div class="edit-task">
+                    <span><strong>Группа</strong></span>
+                    <input type="text" class="edit-inp_group">
+                </div>
+                <div class="edit-task">
+                    <span><strong>Недельный KPI:</strong></span>
+                    <input type="text" class="edit-inp_week">
+                </div>
+                <div class="edit-task">
+                    <span><strong>Месячный KPI:</strong></span>
+                    <input type="text" class="edit-inp_month">
+                </div>
+                <div class="edit-task">
+                    <button class="btn-close">Закрыть</button>
+                    <button class="btn-save">Сохранить изменения</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
